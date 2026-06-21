@@ -1,0 +1,15 @@
+Task 3 Report
+
+A parameter is a value that is passed into a function so the function can use it to perform a task. So in our example wait time is our parameter and it tells the function to blink at a given time .
+
+Using a function avoids repeating the same code, making the program shorter, easier to read, and easier to maintain. If the blinking behavior needs to change, you only need to edit the function once instead of changing the same code in multiple places.
+
+You can write blinkOnce() without parameters by giving it a fixed delay value inside the function.
+An example is:
+
+void blinkOnce() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000);
+}
